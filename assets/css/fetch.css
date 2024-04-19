@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    display: block;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-186980.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card {
+    /* background: #0e4fda; */
+    background: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-186980.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    resize: both;
+    height: 700px;
+    border: black;
+    box-shadow: 0px 0px 3px;
+    display: block;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+#inputLocation {
+    padding: 7px;
+}
+
+#button {
+    cursor: pointer;
+    position: relative;
+    color: blueviolet;
+}
+
+#description {
+    font-weight: 500;
+    color:red
+}
